@@ -1,0 +1,256 @@
+.homepage {
+    grid-column-gap: 10px;
+    background-color: #fff;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .homepage-frame {
+    grid-row-gap: 140px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .navbar-logo-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbarcontainer {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .navbar-content {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .navbar-menu {
+    grid-column-gap: 32px;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .navbar-link {
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px 12px;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .text-4 {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text-3 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar-button {
+    grid-column-gap: 8px;
+    background-color: #6cdec7;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .w-nav-button {
+    float: right;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 18px;
+    font-size: 24px;
+    display: none;
+    position: relative;
+  }
+
+  .content {
+    flex: 1;
+}
+
+footer {
+    background-color: #808080; /* Gray background */
+    color: #ffffff; /* White text color */
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #87CEEB; /* Light blue color for links */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.review-section {
+    margin-bottom: 50px;
+}
+
+.review-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #247565;
+}
+
+.review-section p {
+    margin-bottom: 10px;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Prevent wrapping to next line */
+  overflow-x: auto; /* Enable horizontal scroll if needed */
+  margin: 0 -5px; /* Negative margin to counteract the padding */
+}
+
+.review-basic {
+    padding-left: 30px;
+}
+
+.review {
+  flex: 0 0 calc(30% - 20px); /* Calculate width with margin and border */
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 5px; /* Margin between boxes */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review img {
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.review h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.review p1 {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: #247565;
+}
+
+.review p2 {
+  margin-bottom: 5px;
+  font-style: italic;
+  color: #757575;
+}
+
+.review q {
+    font-style: italic;
+    margin-top: 10px;
+    display: block;
+}
+
+p, q{
+    text-align: center;
+}

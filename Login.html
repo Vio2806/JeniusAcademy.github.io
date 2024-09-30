@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+    <body>
+        <section class="homepage">
+            <div class="homepage-frame">
+                <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease"
+                    data-easing2="ease" role="banner" class="navbar-logo-left w-nav">
+                    <div class="navbarcontainer w-container">
+                        <div class="navbar-content"><img
+                                src="https://cdn.prod.website-files.com/66602910ae66c984d8c31461/66603675fc4699d98e9bff4d_Screenshot-(102)-1.png"
+                                loading="lazy" width="141" height="40" alt="" class="screenshot-102-1" />
+                            <nav role="navigation" class="navbar-menu w-nav-menu"><a href="Homepage.html" id="home-link"
+                                    class="navbar-link w-nav-link">
+                                    <div class="text-4">Home</div>
+                                </a><a href="Register.html" id="register-link" class="navbar-link w-nav-link">
+                                    <div class="text-4">Register</div>
+                                </a><a href="Subscription.html" id="subscription-link" class="navbar-link w-nav-link">
+                                    <div class="text-4">Subscription</div>
+                                </a><a href="Testimony.html" id="testimony-link" class="navbar-link w-nav-link">
+                                    <div class="text-4">Testimony</div>
+                                </a><a href="Learn.html" id="learn-link" class="navbar-link w-nav-link">
+                                    <div class="text-4">Learn</div>
+                                </a><a href="Login.html" class="navbar-button w-nav-link">
+                                    <div class="text-3">GET STARTED</div>
+                                </a></nav>
+                        </div>
+                        <div class="w-nav-button">
+                            <div class="w-icon-nav-menu"></div>
+                        </div>
+                    </div>
+        </section>
+        <div class="login-container">
+            <form class="login-form">
+                <h2>LOGIN</h2>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+        
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <i class="toggle-password" onclick="togglePasswordVisibility()"><i data-feather="eye-off"></i></i>
+        
+                <div class="remember-forgot">
+                    <label><input type="checkbox" id="remember-me" name="remember-me"> Remember me</label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+        
+                <button type="submit">LOGIN</button>
+        
+                <div class="register">
+                    <span>Don't have account yet?</span>
+                    <a href="Register.html">Register here</a>
+                </div>
+            </form>
+        </div>
+        <br>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <p>123 Learning Street, Cityville, Country</p>
+                    <p>Phone: +123-456-7890</p>
+                    <p>Email: info@jeniusacademy.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Jenius Academy</h3>
+                    <p>Â© 2024 JeniusAcademy. All rights reserved.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Twitter</a></p>
+                    <p><a href="#">Instagram</a></p>
+                </div>
+            </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
